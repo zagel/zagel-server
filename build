@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf built
+./node_modules/.bin/babel src -d built
